@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Employee portal</title>
+        <meta name="author" content="Mei Hirata"/>
+        <meta name="description" content="employee portal demo"/>
+        <!-- Google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+         <!--Link CSS file--> 
+        <link rel="stylesheet" href="./css/home.css"> 
+
+    </head>
+
+    <body>
+        <main>
+            <div class="welcome">
+                <div class="company_img">
+                    <h1>Welcome to <br>
+                        the Employee Portal</h1>
+                    <button class="login-button" onclick="redirectToLogin()">Login</button>
+                </div>
+                <div class="demo-img">
+                    <!-- Image : left side -->
+                    <img src="./images/Company-amico.png" alt="Company Logo">
+                </div>
+            </div>
+            
+    </main>
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./images/logo-demo3.png">
+                </div>
+                <div class="footer-info">
+                    <p>MEI Inc.</p>
+                    <p>&copy; 2023 Employee Portal Created by Mei Hirata</p>
+                </div>
+            </div>
+        </footer>
+    </body>   
+
+    <script>
+        function redirectToLogin() {
+            window.location.href = 'login.php';
+        }
+    </script>
+ </html>   
