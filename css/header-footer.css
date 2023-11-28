@@ -1,0 +1,143 @@
+* {
+	margin:0; padding:0; 		
+  /* height: auto; */
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(67, 65, 65);
+  overflow-x: hidden;
+  
+} 
+
+header {
+  width:100%;
+  background-color: #a8c9e7;
+  position: relative;
+}
+
+
+.logo {
+  float: left;
+  margin: -0.3em 1em;
+  width: 7vw;
+} 
+
+/* logout button */
+.btn-logout {
+  background-color: #253B4F; 
+  color: #fff;
+  text-transform: uppercase;
+  padding: 1.1em;
+  border: none;
+  font-size: 0.8em;
+  font-weight: bold;
+  border-radius: .5em; 
+  cursor: pointer;
+  position: absolute;
+  top: 3vw;
+  right: 5vw;
+  /* width: 7vw;  */
+}
+
+
+
+
+#navbar {
+    color: rgb(13, 26, 38);
+    display: flex;
+    justify-content: left;
+    height: 6vw;
+    line-height: 4em;
+    padding: 1vw;
+  }
+  
+  .nav-wrapper {
+    text-align: center;
+    vertical-align: middle;
+  } 
+  
+  
+  #navbar ul {
+    display: block;
+    float: left;
+    list-style: none;
+    margin-top: -2px;
+    text-align: right;
+  } 
+  
+  #navbar li {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  #navbar li a {
+    color:rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 1.2em;
+    height: 4vw;
+    letter-spacing: 1px;
+    margin: 0 20px;
+    padding: 0 4px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  
+  #navbar li a:hover {
+    color: rgb(19, 79, 119);
+  }
+  
+  /* Animated Bottom Line */
+  #navbar li a:before, #navbar li a:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    bottom: -0.01em;
+    background: rgb(30, 127, 191);
+  }
+  
+  #navbar li a:before {
+    left: 0;
+    transition: 0.5s;
+  }
+  
+  #navbar li a:after {
+    background: rgb(13, 26, 38);
+    right: 0;
+  }
+  
+  #navbar li a:hover:before {
+    background: rgb(13, 26, 38);
+    width: 100%;
+    transition: width 0.5s cubic-bezier((0.22, 0.61, 0.36, 1));
+  }
+  
+  #navbar li a:hover:after {
+    background: transparent;
+    width: 100%;
+  }
+
+
+  /* Style the footer */
+footer {
+    background-color:#2D5070;
+    color: #fff;
+    padding: 2vw 2vw;
+    text-align: left;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  /* Center the footer content */
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: small;
+  }

@@ -1,0 +1,141 @@
+body{
+  background-color: rgb(255, 248, 242);
+}
+
+
+h1 {
+  padding-top: .7em;
+  padding-left: 5vw;
+  text-shadow: 0.5px 0.5px rgb(158, 158, 158);
+  font-size: 4vw;
+}
+
+.container {
+  display: block;
+  text-align: center;
+  padding: 0 5vw 4vw 5vw;
+}
+
+td {
+  /* border: 1px solid #2D5070; */
+  text-align: left;
+  padding: .5em;
+  font-weight: 300;
+  margin-right: 1em;
+  font-family: sans-serif;
+}
+
+
+tr {
+  /* border-bottom: 1px solid #ccc; */
+  border: none;
+  font-size: .9em;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(245, 245, 245);
+}
+
+.add {
+  text-align: left;
+  padding:1vw 1vw 2vw 5vw ;
+}
+
+.add-button {
+  display: inline-block; 
+  background-color: #f86c00;
+  color: white; 
+  padding: 0.9em 1em 0.9em 1em;
+  border: none;
+  border-radius: .5em;
+  cursor: pointer;
+}
+
+/* each employee contaier */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 3vw; 
+  justify-content: space-between; 
+}
+
+/* profile picture */
+.profile {
+    border-radius: 50%; 
+    width: 8vw; 
+    height: 8vw; 
+    object-fit: cover; 
+    display: inline-block;
+    margin-bottom: .5em;
+}
+
+.prof-header {
+  padding:1.3em;
+}
+
+.prof-header p{
+  color: #135592;
+}
+
+.prof {
+  text-align: center; 
+  border: 1px solid #135592;
+  border-radius: 10px;
+  padding: 0.5em 0.5em 0.3em 0.5em;
+  background-color: #ffffff;
+}
+
+/* Employee infomation List */
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.info-table th, .info-table td {
+  text-align: left;
+}
+
+.info-table th {
+  width:30%;
+  border-right: 1px solid #ddd;
+  text-transform: uppercase;
+  text-align: left;
+  padding: .5em;
+  color: #253B4F;
+  font-weight: 300;
+}
+
+.info-table tr {
+  border-top: 1px solid #ddd;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap:1.5vw;
+  margin-top: 0.5vw;
+}
+
+.button-column {
+  text-align: center;
+  width: 100%;
+  background-color: #fff;
+}
+
+.button {
+  padding: .5em;
+  width:5em;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+}
+
+.edit-btn {
+  background-color: #8edceb;
+}
+
+.delete-btn {
+  background-color: rgb(229, 94, 94);
+}
+

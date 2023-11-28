@@ -1,0 +1,185 @@
+* {
+	margin:0; padding:0; 		
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: rgb(255, 248, 242);
+  min-height: 100vh;
+  position: relative;
+  /* padding-bottom: 70px; */
+  box-sizing: border-box;
+  width:100%;
+}
+
+header {
+  width:100%;
+  background-color: #a8c9e7;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.company_logo {
+  padding-top: 3em;
+  padding-bottom: 1em;
+}
+
+.company_logo img {
+  width: 14vw;
+}
+
+  /* Style the footer */
+footer {
+    background-color:#2D5070;
+    color: #fff;
+    padding: 2vw 2vw;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  
+  /* Center the footer content */
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: small;
+  }
+
+
+
+/* form */
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  /* height: 100vh;  */
+}
+
+h1 {
+  padding: 1em 0 1.5em 0;
+  color: rgb(67, 65, 65);
+  /* text-shadow: 2px 2px #c5c5c5; */
+}
+
+
+/* Style form */
+#portal-form {
+  font-family: 'Poppins', sans-serif;
+  width: 350px;
+  min-width:250px;
+  margin: 10px auto;
+  position: relative;
+}
+
+#portal-form .fieldset {
+  background-color:#d5d5d5;
+  border-radius: 3px;
+  height: auto;
+  box-shadow: 5px 5px 10px grey;
+}
+
+ #portal-form legend {
+  text-align: center;
+  background: #4791D6;
+  width: 100%;
+  padding: 1em 0;
+  border-radius: 3px 3px 0 0;
+  color: white;
+  font-size:2em;
+}
+
+label {
+  color: #2c2c2c;
+}
+
+.fieldset form{
+  /* border:1px solid #2f2f2f; */
+  margin:0 auto;
+  display:block;
+  width:100%;
+  padding:15px 20px;
+  box-sizing:border-box;
+  border-radius:0 0 3px 3px;
+}
+.placeholder #portal-form label {
+  display: none;
+}
+
+.message {
+  font-weight: bold;
+}
+
+#nextStep {
+  margin-bottom: .5em;
+}
+
+
+/* all */
+::-webkit-input-placeholder { text-shadow:1px 1px 1px white; font-weight:bold; }
+
+#portal-form input[type=text],
+#portal-form input[type=password]{
+  padding: 15px 20px;
+  border-radius: 1px;
+  margin:5px auto;
+  background-color:#f7f7f7;
+  border: 1px solid silver;
+  box-shadow: inset 0 1px 5px rgba(0,0,0,0.2), 0 1px rgba(255,255,255,.8);
+  width: 100%;
+  box-sizing: border-box;
+  
+}
+
+#portal-form input[type=text]:active, 
+#portal-form input[type=text]:focus,
+#portal-form input[type=password]:active,
+#portal-form input[type=password]:focus{
+  outline: none;
+  border-color: silver;
+  background-color:white;
+}
+
+
+#portal-form button[type=submit] {
+  font-family:'Open Sans Condensed', sans-serif;
+  outline:none;
+  box-sizing: border-box;
+  width: 100%;
+  background-color:#EC6800;
+  padding: 8px;
+  color: white;
+  border: 1px solid #e4731d;
+  border-radius: 3px;
+  font-size: 1.1em;
+  margin-top: 10px;
+  cursor: pointer;
+  position:relative;
+  top:0;
+}
+
+#portal-form button[type=submit]:hover {
+  background-color: #f86c00;
+}
+
+#portal-form button[type=submit]:active {
+background:#f8842b;
+}
+
+#portal-form select{
+  width:100%;
+  padding:1em;
+  outline: none;
+  border-color: silver;
+  background-color:white;
+  color: #4f4e4e;
+}
+
+
+
