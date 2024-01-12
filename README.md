@@ -1,6 +1,6 @@
-# company_portal
+# 👨‍💼 Company portal
 Updated version of employee_portal
 
-[Website](http://employee-portal-demo.infinityfreeapp.com/)
+[Explore the website ->http://employee-portal-demo.infinityfreeapp.com/](http://employee-portal-demo.infinityfreeapp.com/)
 
 
