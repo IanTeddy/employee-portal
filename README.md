@@ -1,4 +1,4 @@
-# 👨‍💼 Company portal
+# 💼👨‍💼 Company portal 
 The Company Portal Web Application is a comprehensive employee management system designed to streamline administrative tasks and enhance organizational efficiency. It offers essential **CRUD** (Create, Read, Update, Delete) functionalities to manage employee records.
 
 
