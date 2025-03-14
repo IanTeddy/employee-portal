@@ -19,8 +19,7 @@ It was the first time for me to actually handle data on the database through PHP
 - Allowing non-admin users to update only their working hours and view monthly reports in chart format would improve user experience.
 
 ## 💻 Running the Project
-Check out and Explore the app 👉 [http://employee-portal-demo.infinityfreeapp.com/](http://employee-portal-demo.infinityfreeapp.com/) <br>
-**Currently in maintenance ⚠🙇
+Check out and Explore the app 👉 ⚠Currently in maintenance🙇 
 
 ## 🎥 Video
 Log in as an admin, add a new employee, update their entry and delete it.
